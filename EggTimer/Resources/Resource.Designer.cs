@@ -60,6 +60,31 @@ namespace EggTimer
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f060003
+			public const int buttonController = 2131099651;
+			
+			// aapt resource value: 0x7f060001
+			public const int imageViewEgg = 2131099649;
+			
+			// aapt resource value: 0x7f060000
+			public const int seekBarTimer = 2131099648;
+			
+			// aapt resource value: 0x7f060002
+			public const int textViewTimer = 2131099650;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
